@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/mainlayout"
+    >
+
+    <TextView
+        android:id="@+id/alerttext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No Alerts"
+        android:paddingLeft="150dp"
+        android:paddingRight="10dp"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:enabled="false"
+        android:text="Clear Alerts"/>
+</LinearLayout>
+
